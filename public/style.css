@@ -5,7 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f9f9f9;
+    background-image: url('background.jpeg'); /* replace with your image path */
+    background-size: cover; /* makes the image cover the entire viewport */
+    background-position: center; /* centers the image */
+    background-repeat: no-repeat;
   }
+
   
   .container {
     background: white;
